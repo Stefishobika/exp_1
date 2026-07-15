@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Whimsical Cake Shop</title>
+    </head>
+    <body>
+        <div  id="navi">
+            <!-- <h2>Quick Navigation</h2> -->
+            <h1>Whimsical cake shop</h1>
+            <a href="#home">Home</a>
+            <a href="pastries">Menu</a>
+            <a href="order">Order Now</a>
+            <a href="location">Location</a>
+        </div>
+        <hr>
+        <div id="home">
+
+            <h1 align="center">Welcome to Whisical Cake shop</h1>
+            <p>
+                Welcome to the most Whimisical cake shop you will ever find in town 
+                where tiramisu meets belgian chocolate got everything your tooth tooth
+                needed right at your doorstep.
+            </p>
+            <img src="https://mindfuldesignconsulting.com/4-delicious-ways-to-promote-your-dessert-shop-on-instagram/" alt="1000px">
+        </div>
+        <hr>
+        <div id="pastries">
+            <h2>MENU</h2>
+            <table border="1" cellpadding="10">
+                <tr>
+                    <th>Item</th>
+                    <th>Weight</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Tiramisu cake</td>
+                    <td>250g</td>
+                    <td>Rs.250</td>
+                </tr>
+                <tr>
+                    <td>chocolate Cake</td>
+                    <td>250g</td>
+                    <td>Rs.180</td>
+                </tr>
+                <tr>
+                    <td>vanila Cake</td>
+                    <td>250g</td>
+                    <td>Rs.160</td>
+                </tr>
+                <tr>
+                    <td>Rasmalai Cake</td>
+                    <td>250g</td>
+                    <td>Rs.200</td>
+                </tr>
+                <tr>
+                    <td>Belgian Cake</td>
+                    <td>250g</td>
+                    <td>Rs.200</td>
+                </tr>
+            </table>
+        </div>
+        <div id = "order">
+            <h2>Order Now</h2>
+            <div class="row1">
+                <input type="text" id="h1" placeholder="Cake name">
+            </div>
+            <div class="row2">
+                <input type="number" id="h2" placeholder="Weight">
+            </div>
+            <div class="row3">
+                <input type="number" id="h3" placeholder="Quantity">
+            </div><div class="row4">
+                <textarea id="h4" rows="6" placeholder="Address"></textarea>
+            </div><div class="row5">
+                <button  type="button" onclick="book()">Order Now</button>
+            </div>
+        </div>
+        <div id="location">
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.364817074595!2d121.07339077487576!3d14.74846498575561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b10398225685%3A0x4810d9afa2fcd71e!2sCherrylicious%20Cakes%20and%20Pastries%20Shop!5e0!3m2!1sen!2sin!4v1721026981752!5m2!1sen!2sin" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+        </div>
+        <div></div>
+        
+    </body>
+</html>
